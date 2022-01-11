@@ -1,0 +1,11 @@
+spring:
+  profiles: dev
+server:
+  port: 8000
+coin:
+  cap:
+    listing:
+      latest: https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest
+      historical: https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/historical
+    api:
+      key : 6d470354-f469-4fa4-b682-

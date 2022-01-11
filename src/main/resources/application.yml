@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: CoinCap
+  profiles:
+    active: dev
+springdoc:
+  api-docs:
+    path: /coincap-docs
